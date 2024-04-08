@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Gamilia-Regular';
+  src: url(./Gamilia-Regular.eot);
+  src: url(./Gamilia-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./Gamilia-Regular.woff2) format('woff2'),
+       url(./Gamilia-Regular.woff) format('woff'),
+       url(./Gamilia-Regular.ttf) format('truetype'),
+       url(./Gamilia-Regular.svg#Gamilia-Regular) format('svg'),
+       url(./Gamilia-Regular.otf) format('otf');
+}
