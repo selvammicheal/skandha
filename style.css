@@ -1121,7 +1121,7 @@ html {
 	padding-left: 7px;
 }
 
-.main-about-list li:last-child  {
+.main-about-list li:last-child {
 	border-right: none;
 }
 
@@ -1549,9 +1549,10 @@ html {
 
 @media screen and (max-width: 1366px) {
 	.about-main-wings h3 {
-		
+
 		white-space: nowrap;
 	}
+
 	.about-main-wings.student-wing {
 		background-image: url("img/others/wings.png");
 		background-size: 90% 70%;
@@ -1561,6 +1562,7 @@ html {
 		text-align: center;
 		position: relative;
 	}
+
 	.main-left {
 		position: absolute;
 		top: 0%;
@@ -1840,6 +1842,26 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+	.main-left-about.student-full {
+		padding-top: 50px;
+	}
+
+	.about-main-wings.student-wing {
+		background-image: url("img/others/wings.png");
+		background-size: 70% 80%;
+		padding: 70px;
+
+	}
+
+	.about-main-wings.list-wings {
+		background-size: 70% 70%;
+		padding: 70px;
+	}
+
+	.main-about-list ul li {
+		border: none;
+	}
+
 	.footer-details {
 		border: none;
 	}
@@ -1860,8 +1882,8 @@ html {
 	}
 
 	.about-main-wings {
-		background-size: 70% 80%;
-		padding: 90px;
+		background-size: 70% 70%;
+		padding: 70px;
 
 	}
 
@@ -2013,7 +2035,7 @@ html {
 	}
 
 	.header-btn a {
-		background-color: #e21e24;
+		background-color: #001d0d;
 		border-radius: 50px;
 		padding: 9px 28px;
 		font-family: 'Myriad Pro Semibold';
@@ -2122,7 +2144,7 @@ html {
 		z-index: 99;
 		display: block;
 		width: 100%;
-		background: #e21e24;
+		background: #001d0d;
 		border-top: 1px solid #fff;
 	}
 
