@@ -45,12 +45,31 @@ ul {
 }
 
 header .mainmenu ul li a {
-	font-family: 'Myriad Pro Semibold';
+	font-family: 'ProximaNova-Regular';
 	text-decoration: none;
 	font-size: 16px;
 	color: #000;
 }
-
+.full-bg-marin {
+	background-repeat: no-repeat;
+	padding: 220px 50px;
+	background-image: url("img/others/mantras-img.png");
+	background-size: 100%;
+}
+.fine-right-mains p{
+	font-family: 'ProximaNova-Regular';
+}
+.full-bg-marin h2{
+	font-family: 'Emerland';
+	font-size: 50px;
+	text-align: center;
+	
+}
+.full-bg-marin h2 span{
+	display:block;
+	font-family: 'Emerland';
+	font-size: 50px;
+}
 header .mainmenu ul li {
 	padding: 0px 17px;
 }
