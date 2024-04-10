@@ -1861,6 +1861,18 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+	.full-bg-marin h2 span{
+		font-size: 25px;
+	}
+	.full-bg-marin h2{
+		font-size: 25px;
+	}
+	.full-bg-marin {
+		background-repeat: no-repeat;
+		padding: 40px 10px;
+		background-image: url("img/others/mantras-img.png");
+		background-size: 100% 100%;
+	}
 	.main-about-list ul li {
 		display: inline-block;
 		padding-right: 0;
