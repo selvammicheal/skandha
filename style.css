@@ -1861,6 +1861,12 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+	.main-about-list ul li {
+		display: inline-block;
+		padding-right: 0;
+		border-right: 2px solid #000;
+		padding-left: 0;
+	}
 	.main-left-about.student-full {
 		padding-top: 50px;
 	}
